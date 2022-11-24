@@ -17,7 +17,7 @@ public class SetUserPasswords {
             System.setPassword('0055j000005bPAFAA2', 'Salesforce@123');
         }
         catch(Exception e){
-            System.debug(e.getLineNumber()+' == '+e.getMessage());
+            System.debug(e.getLineNumber()+' <----> '+e.getMessage());
         }        
     }
 }
